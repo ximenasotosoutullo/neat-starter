@@ -15,9 +15,15 @@
     {% if prism == true %}
       <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
     {% endif %}
+    <meta name="theme-color" content="#B6CBAE">
+    <meta name="author" content="Ximena Soto Soutullo" />
+    <link rel="me" href="https://github.com/ximenasotosoutullo/" />
   </head>
   <body>
+
+    <section class="band">
     {% include "./partials/navbar.html" %}
+    </section>
 
     {{ content | safe }}
 
