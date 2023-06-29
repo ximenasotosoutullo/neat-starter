@@ -68,6 +68,12 @@ a {
   z-index: 1;
 }
 
+@media (max-width: 679px) {
+  .hire-badge {
+    right: 0;
+  }
+}
+
 .hire-badge:hover {
   text-decoration: underline;
   background-color: #462a4b;
