@@ -46,3 +46,30 @@ a {
     width: 100%;
   }
 }
+
+.hire-badge {
+  background: #5E3566;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  color: #fff;
+  padding: 0.5rem 0.7rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transform: rotate(-15deg);
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  bottom: -1.2rem;
+  right: -0.5rem;
+  z-index: 1;
+}
+
+.hire-badge:hover {
+  text-decoration: underline;
+  background-color: #462a4b;
+  transform: rotate(0);
+}
